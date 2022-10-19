@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "npx nuxi build  && npx wrangler publish",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@unocss/nuxt": "^0.45.30",
+    "@unocss/reset": "^0.45.30",
+    "@vueuse/nuxt": "^9.3.1",
+    "nuxt": "3.0.0-rc.12",
+    "prettier": "^2.7.1",
+    "wrangler": "^2.1.12"
+  },
+  "dependencies": {
+    "@previewjs/cli": "^1.15.1"
+  }
+}

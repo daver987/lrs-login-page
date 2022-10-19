@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'caviar-dreams';
+  font-style: normal;
+  font-weight: 400;
+  src: local('caviar-dreams'),
+    url('/assets/fonts/caviar-dreams.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'caviar-dreams-bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('caviar-dreams-bold'),
+    url('/assets/fonts/caviar-dreams-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'campton-light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('campton-light'),
+    url('/assets/fonts/campton-light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'campton-thin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('campton-thin'),
+    url('/assets/fonts/campton-thin.woff') format('woff');
+}
+
+.router-link-active {
+  color: rgba(187, 136, 15);
+}
+
+html {
+  scroll-behavior: smooth; /* set scroll-behaviour to smooth here */
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+
