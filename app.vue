@@ -20,9 +20,19 @@ useScriptTag(
     <div
       class="mx-auto max-w-5xl pt-4 bg-transparent flex flex-row justify-between"
     >
-      <div class="w-[150px]">
-        <img width="340" height="95" src="/luxury_ride_service_logo.jpg" alt="logo" />
-      </div>
+      <NuxtLink
+        href="https://luxuryrideservice.com"
+        target="_self"
+        :no-rel="false"
+        class="w-[150px]"
+      >
+        <img
+          width="340"
+          height="95"
+          src="/luxury_ride_service_logo.jpg"
+          alt="logo"
+        />
+      </NuxtLink>
       <h1 class="text-black text-3xl text-center uppercase"></h1>
     </div>
     <NuxtPage />
